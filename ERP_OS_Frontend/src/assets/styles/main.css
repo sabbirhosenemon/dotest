@@ -1,0 +1,90 @@
+.container-fluid {
+  padding-left: 0 !important;
+  min-height: 100vh;
+}
+
+/* ====== START - Overriding ====== */
+
+.ant-layout-header {
+  background-color: transparent;
+  padding: 0;
+}
+
+.ant-drawer-body {
+  padding: 0 !important;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background-color: transparent;
+}
+
+.ant-menu-title-content > a {
+  padding: 0 !important;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+.ant-menu-item .active {
+  background-color: transparent !important;
+}
+
+.ant-layout {
+  background-color: transparent;
+}
+
+.ant-layout-footer {
+  padding: 24px;
+  background-color: transparent;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background: #2c2c2c !important;
+}
+
+.ant-menu-title-content a {
+  color: inherit !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: rgb(44, 44, 44) !important;
+}
+
+.ant-btn {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+.ant-select {
+  width: 100%;
+}
+
+/* ====== END - Overriding ====== */
+
+/* ====== Responsive ====== */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
